@@ -20,3 +20,4 @@ filetype plugin indent on    " Required
 syntax on                    " Turn on color highlighting
 set number                   " Show line numbers
 set mouse=a                  " Enable mouse support
+colorscheme colorschemes
