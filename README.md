@@ -21,6 +21,6 @@
 
 ## Retrospective & Desired Improvements
 - Improvement 1:
+    - Adding arguments to the `install.sh` script to allow for targeted, profile-based deployments (e.g., running ./install.sh --server versus ./install.sh --desktop).
 - Improvement 2:
-- Improvement 3:
-- Improvement 4:
+    - Expand the homefiles directory to track and symlink configurations for remote management and cloud tools. Incorporating files like `~/.ssh/config` or AWS CLI configurations (`~/.aws/config`) into my repository ensures that the host shortcuts, port forwarding rules, and access policies for storage buckets are instantly standardized across any machine that is set up.
